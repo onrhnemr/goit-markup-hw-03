@@ -32,22 +32,22 @@ ol {
 a {
   text-decoration: none;
 }
-.container{
+.container {
   display: flex;
-  width: auto;
+  width: 1158px;
 }
-.section{
+.section {
   padding: 120px 0px;
 }
-.menu{
+.menu {
   display: flex;
   width: 1440px;
   height: 72px;
 }
 .first-section {
   background-color: #2e2f42;
-  color: #FFFFFF;
-  border: 1px solid blue;
+  color: #ffffff;
+  border-bottom: 1px solid blue;
 }
 .page-head {
   font-weight: 700;
@@ -142,6 +142,9 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02px;
+}
+.cards {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .footer {
