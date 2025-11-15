@@ -38,12 +38,16 @@ a {
 }
 .container {
   display: flex;
-  gap: 40px;
+  gap: 24px;
   align-items: center;
   justify-content: center;
   flex-direction: row;
 }
 .section {
+  padding-left: calc((1440px - 1158px) / 2);
+  padding-right: calc((1440px - 1158px) / 2);
+}
+.section-padding{
   padding: 120px 0px;
 }
 .menu {
@@ -51,7 +55,11 @@ a {
   padding: 24px 0px;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
+}
+.address {
+  display: flex;
+  gap: 40px;
 }
 .first-section {
   background-color: #2e2f42;
@@ -63,9 +71,15 @@ a {
   font-size: 56px;
   line-height: 1.071;
   letter-spacing: 0.02px;
-  padding: 260px 472px;
   margin-top: auto;
   width: 1440px;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  text-align: center;
+}
+.page-head h1{
+  margin: 0;
+  margin-bottom: 48px;
 }
 .button {
   font-family: inherit;
