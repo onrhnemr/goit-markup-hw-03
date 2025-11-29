@@ -36,6 +36,14 @@ a {
   width: 1440px;
   margin: 0 auto;
 }
+.liste-nav{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+  width: 261px;
+}
 .liste {
   display: flex;
   gap: 24px;
@@ -46,8 +54,12 @@ a {
 .liste-2 {
   display: flex;
   flex-wrap: wrap;
-  padding: 72px 156px 120px 156px;
-  gap: 24px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 72px;
+  padding-bottom: 120px;
+  gap: 48px 24px;
 }
 .menu {
   display: flex;
@@ -88,6 +100,13 @@ a {
   color: white;
   letter-spacing: 0.04px;
   cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 4px;
+  padding: 16px 32px;
 }
 .button:hover,
 .button:focus {
@@ -145,6 +164,7 @@ a {
 }
 .thirth-section {
   background-color: #f4f4fd;
+  padding: 120px 0px;
 }
 .img-link {
   background-color: white;
@@ -158,23 +178,51 @@ a {
   line-height: 1.111;
   letter-spacing: 0.02px;
   padding-bottom: 72px;
-  padding-top: 120px;
 }
 .thirth-section .title2 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02px;
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 .thirth-section .text2 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02px;
-  padding-bottom: 120px;
+  padding-bottom: 32px;
+}
+.thirth-section .img {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border: none;
+  border-radius: 0px 0px 4px 4px;
 }
 .title3 {
   text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02px;
+}
+.fourth-section{
   padding-top: 120px;
+}
+.fourth-section .img {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid #E7E9FC;
+}
+.fourth-section .title4 {
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 .cards {
   border-bottom: 1px solid #e7e9fc;
@@ -197,13 +245,13 @@ a {
   width: 115px;
 }
 .footer-part {
-  color: #f4f4fd;
+  color: #F4F4FD;
 }
-.footer .text {
+.footer-section .text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02px;
-  color: #f4f4fd;
+  color: #F4F4FD;
   width: 264px;
   padding-top: 16px;
 }
