@@ -36,13 +36,9 @@ a {
   width: 1440px;
   margin: 0 auto;
 }
-.liste-nav{
+.menu-container {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 40px;
-  width: 261px;
+  gap: 76px;
 }
 .liste {
   display: flex;
@@ -67,6 +63,11 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+}
+.liste-nav{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
 }
 .address {
   display: flex;
@@ -132,6 +133,9 @@ a {
   letter-spacing: 0.02px;
 }
 .web {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -223,6 +227,9 @@ a {
 .fourth-section .title4 {
   padding-top: 32px;
   padding-bottom: 8px;
+}
+.text4{
+  padding-bottom: 32px;
 }
 .cards {
   border-bottom: 1px solid #e7e9fc;
